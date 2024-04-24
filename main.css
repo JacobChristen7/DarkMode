@@ -1,0 +1,78 @@
+body {
+    margin: 0px;
+    background-color: #dddddd;
+    font-family: Roboto, Arial, sans-serif;
+}
+p {
+    margin: 12px;
+}
+h1 {
+    font-size: 41px;
+    margin: 10px 0px;
+}
+#button {
+    border: 1px solid black;
+    border-radius: 3px;
+    width: 230px;
+    font-size: 26px;
+    text-align: center;
+    padding: 11px;
+    margin-top: 10px;
+}
+#button:hover {
+    cursor: pointer;
+}
+#content {
+    display: flex;
+    justify-content: center;    
+}
+#container {
+    width: 1200px;
+}
+#header {
+    width: fit-content;
+}
+#line {
+    width: 100%;
+}
+hr {   
+    width: 40%; 
+    margin-inline-start: 0px;
+    color: black;
+    background-color: black;
+    border: none;
+    height: 2px;
+}
+.item {
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    justify-content: space-between;
+    font-size: 24px;
+    padding: 3px 14px;
+    border: 1px solid #333333;
+    border-radius: 5px;
+    margin-top: 11px;
+    box-shadow: 2px 2px 2px #333333, -2px 2px 2px #333333;
+}
+p.itemDetail {
+    width: 300px;
+}
+p.itemName {
+    width: 200px;
+}
+p.itemPrice {
+    width: 150px;
+}
+
+body.darkMode {
+    background-color: #444444;
+    color: white;
+}
+.item.darkMode {
+    background-color: #616161;
+    border-color: #acacac;
+    box-shadow: 2px 2px 2px #acacac, -2px 2px 2px #acacac;
+}
+hr.darkMode {
+    background-color: white;
+}
